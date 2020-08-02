@@ -1,0 +1,11 @@
+$border-sizes: ("1": 0.05, "2": 0.15,"3": 0.2,"4": 0.3,"5": 0.4)
+$border-styles: solid, dotted, dashed, double
+
+@each $class, $size in $border-sizes
+  .f-brdr-#{$class}
+    border-width: $spacer * $size
+
+@each $style in $border-styles
+  .f-brdr-#{$style}
+    border-style: #{$style}
+   

@@ -1,0 +1,8 @@
+
+
+$color-classes: (".f-": "color", ".f-bg-": "background-color", ".f-brdr-": "border-color")
+
+@each $c-class, $atribute in $color-classes
+  @each $name-color, $color in $colors
+    #{$c-class}#{$name-color} 
+      #{$atribute}: #{$color}

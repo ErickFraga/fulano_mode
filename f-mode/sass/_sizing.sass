@@ -1,0 +1,9 @@
+@each $name, $atribute in $sizing-classes
+  @each $size in $resp-sizes
+    #{$name}#{$size}
+      #{$atribute}: #{$size+'%'} 
+
+
+@each $name, $size in $font-size
+  .f-f-#{$name}
+    font-size: #{$size}

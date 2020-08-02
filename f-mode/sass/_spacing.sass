@@ -1,0 +1,24 @@
+@each $class, $size in $spaces-size
+  .f-mx-#{$class}
+    margin: #{$spacer * $size} 0
+  .f-my-#{$class}
+    margin: 0 #{$spacer * $size}
+  .f-px-#{$class}
+    padding: #{$spacer * $size} 0
+  .f-py-#{$class}
+    padding: 0 #{$spacer * $size}
+
+@each $m-class, $margin in $margins   
+  .f-#{$m-class}-auto
+    #{$margin}: auto
+  @each $name, $size in $spaces-size
+    .f-#{$m-class}-#{$name}
+      #{$margin}: #{$spacer * $size}
+ 
+
+@each $p-class, $padding in $paddings
+  .f-#{$p-class}-auto
+    #{$padding}: auto
+  @each $name, $size in $spaces-size
+    .f-#{$p-class}-#{$name}
+      #{$padding}: #{$spacer * $size}
