@@ -1,0 +1,1 @@
+# fulano_mode
