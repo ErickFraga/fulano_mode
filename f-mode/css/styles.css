@@ -1,1171 +1,705 @@
 @import url("https://fonts.googleapis.com/css2?family=Monoton&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Share+Tech+Mono&display=swap");
-/* line 7, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_fonts.sass */
 .f-share {
-  font-family: "Share Tech Mono", monospace;
-}
+  font-family: "Share Tech Mono", monospace; }
 
-/* line 10, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_fonts.sass */
 .f-roboto {
-  font-family: "Roboto", sans-serif;
-}
+  font-family: "Roboto", sans-serif; }
 
-/* line 13, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_fonts.sass */
 .f-monoton {
-  font-family: "Monoton", cursive;
-}
+  font-family: "Monoton", cursive; }
 
-/* line 2, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_resets.sass */
 * {
   margin: 0;
   padding: 0;
   outline: 0;
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
-/* line 8, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_resets.sass */
 body, html {
   height: 100%;
-  font-family: "Share Tech Mono", monospace;
-}
+  font-family: "Share Tech Mono", monospace; }
 
-/* line 12, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_resets.sass */
 input, button, textarea {
-  font-family: "Share Tech Mono", monospace;
-}
+  font-family: "Share Tech Mono", monospace; }
 
-/* line 7, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_colors.sass */
 .f-black {
-  color: #000000;
-}
+  color: #000000; }
 
-/* line 7, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_colors.sass */
 .f-dark-grey {
-  color: #333333;
-}
+  color: #333333; }
 
-/* line 7, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_colors.sass */
 .f-grey {
-  color: #777777;
-}
+  color: #777777; }
 
-/* line 7, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_colors.sass */
 .f-light-grey {
-  color: #aaaaaa;
-}
+  color: #aaaaaa; }
 
-/* line 7, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_colors.sass */
 .f-white {
-  color: #ffffff;
-}
+  color: #ffffff; }
 
-/* line 7, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_colors.sass */
 .f-yellow {
-  color: #FFC107;
-}
+  color: #FFC107; }
 
-/* line 7, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_colors.sass */
 .f-orange {
-  color: #FF7E00;
-}
+  color: #FF7E00; }
 
-/* line 7, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_colors.sass */
 .f-red {
-  color: #FF0000;
-}
+  color: #FF0000; }
 
-/* line 7, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_colors.sass */
 .f-pink {
-  color: #FF2385;
-}
+  color: #FF2385; }
 
-/* line 7, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_colors.sass */
 .f-purple {
-  color: #7D00FF;
-}
+  color: #7D00FF; }
 
-/* line 7, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_colors.sass */
 .f-blue {
-  color: #0000FF;
-}
+  color: #0000FF; }
 
-/* line 7, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_colors.sass */
 .f-light-blue {
-  color: #00FFFF;
-}
+  color: #00FFFF; }
 
-/* line 7, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_colors.sass */
 .f-light-green {
-  color: #00FF78;
-}
+  color: #00FF78; }
 
-/* line 7, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_colors.sass */
 .f-green {
-  color: #00FF00;
-}
+  color: #00FF00; }
 
-/* line 7, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_colors.sass */
 .f-bg-black {
-  background-color: #000000;
-}
+  background-color: #000000; }
 
-/* line 7, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_colors.sass */
 .f-bg-dark-grey {
-  background-color: #333333;
-}
+  background-color: #333333; }
 
-/* line 7, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_colors.sass */
 .f-bg-grey {
-  background-color: #777777;
-}
+  background-color: #777777; }
 
-/* line 7, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_colors.sass */
 .f-bg-light-grey {
-  background-color: #aaaaaa;
-}
+  background-color: #aaaaaa; }
 
-/* line 7, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_colors.sass */
 .f-bg-white {
-  background-color: #ffffff;
-}
+  background-color: #ffffff; }
 
-/* line 7, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_colors.sass */
 .f-bg-yellow {
-  background-color: #FFC107;
-}
+  background-color: #FFC107; }
 
-/* line 7, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_colors.sass */
 .f-bg-orange {
-  background-color: #FF7E00;
-}
+  background-color: #FF7E00; }
 
-/* line 7, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_colors.sass */
 .f-bg-red {
-  background-color: #FF0000;
-}
+  background-color: #FF0000; }
 
-/* line 7, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_colors.sass */
 .f-bg-pink {
-  background-color: #FF2385;
-}
+  background-color: #FF2385; }
 
-/* line 7, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_colors.sass */
 .f-bg-purple {
-  background-color: #7D00FF;
-}
+  background-color: #7D00FF; }
 
-/* line 7, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_colors.sass */
 .f-bg-blue {
-  background-color: #0000FF;
-}
+  background-color: #0000FF; }
 
-/* line 7, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_colors.sass */
 .f-bg-light-blue {
-  background-color: #00FFFF;
-}
+  background-color: #00FFFF; }
 
-/* line 7, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_colors.sass */
 .f-bg-light-green {
-  background-color: #00FF78;
-}
+  background-color: #00FF78; }
 
-/* line 7, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_colors.sass */
 .f-bg-green {
-  background-color: #00FF00;
-}
+  background-color: #00FF00; }
 
-/* line 7, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_colors.sass */
 .f-brdr-black {
-  border-color: #000000;
-}
+  border-color: #000000; }
 
-/* line 7, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_colors.sass */
 .f-brdr-dark-grey {
-  border-color: #333333;
-}
+  border-color: #333333; }
 
-/* line 7, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_colors.sass */
 .f-brdr-grey {
-  border-color: #777777;
-}
+  border-color: #777777; }
 
-/* line 7, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_colors.sass */
 .f-brdr-light-grey {
-  border-color: #aaaaaa;
-}
+  border-color: #aaaaaa; }
 
-/* line 7, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_colors.sass */
 .f-brdr-white {
-  border-color: #ffffff;
-}
+  border-color: #ffffff; }
 
-/* line 7, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_colors.sass */
 .f-brdr-yellow {
-  border-color: #FFC107;
-}
+  border-color: #FFC107; }
 
-/* line 7, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_colors.sass */
 .f-brdr-orange {
-  border-color: #FF7E00;
-}
+  border-color: #FF7E00; }
 
-/* line 7, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_colors.sass */
 .f-brdr-red {
-  border-color: #FF0000;
-}
+  border-color: #FF0000; }
 
-/* line 7, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_colors.sass */
 .f-brdr-pink {
-  border-color: #FF2385;
-}
+  border-color: #FF2385; }
 
-/* line 7, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_colors.sass */
 .f-brdr-purple {
-  border-color: #7D00FF;
-}
+  border-color: #7D00FF; }
 
-/* line 7, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_colors.sass */
 .f-brdr-blue {
-  border-color: #0000FF;
-}
+  border-color: #0000FF; }
 
-/* line 7, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_colors.sass */
 .f-brdr-light-blue {
-  border-color: #00FFFF;
-}
+  border-color: #00FFFF; }
 
-/* line 7, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_colors.sass */
 .f-brdr-light-green {
-  border-color: #00FF78;
-}
+  border-color: #00FF78; }
 
-/* line 7, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_colors.sass */
 .f-brdr-green {
-  border-color: #00FF00;
-}
+  border-color: #00FF00; }
 
-/* line 3, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_sizing.sass */
 .f-w-100 {
-  width: 100%;
-}
+  width: 100%; }
 
-/* line 3, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_sizing.sass */
 .f-w-95 {
-  width: 95%;
-}
+  width: 95%; }
 
-/* line 3, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_sizing.sass */
 .f-w-90 {
-  width: 90%;
-}
+  width: 90%; }
 
-/* line 3, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_sizing.sass */
 .f-w-85 {
-  width: 85%;
-}
+  width: 85%; }
 
-/* line 3, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_sizing.sass */
 .f-w-80 {
-  width: 80%;
-}
+  width: 80%; }
 
-/* line 3, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_sizing.sass */
 .f-w-75 {
-  width: 75%;
-}
+  width: 75%; }
 
-/* line 3, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_sizing.sass */
 .f-w-70 {
-  width: 70%;
-}
+  width: 70%; }
 
-/* line 3, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_sizing.sass */
 .f-w-65 {
-  width: 65%;
-}
+  width: 65%; }
 
-/* line 3, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_sizing.sass */
 .f-w-60 {
-  width: 60%;
-}
+  width: 60%; }
 
-/* line 3, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_sizing.sass */
 .f-w-55 {
-  width: 55%;
-}
+  width: 55%; }
 
-/* line 3, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_sizing.sass */
 .f-w-50 {
-  width: 50%;
-}
+  width: 50%; }
 
-/* line 3, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_sizing.sass */
 .f-w-45 {
-  width: 45%;
-}
+  width: 45%; }
 
-/* line 3, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_sizing.sass */
 .f-w-40 {
-  width: 40%;
-}
+  width: 40%; }
 
-/* line 3, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_sizing.sass */
 .f-w-35 {
-  width: 35%;
-}
+  width: 35%; }
 
-/* line 3, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_sizing.sass */
 .f-w-30 {
-  width: 30%;
-}
+  width: 30%; }
 
-/* line 3, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_sizing.sass */
 .f-w-25 {
-  width: 25%;
-}
+  width: 25%; }
 
-/* line 3, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_sizing.sass */
 .f-w-20 {
-  width: 20%;
-}
+  width: 20%; }
 
-/* line 3, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_sizing.sass */
 .f-w-15 {
-  width: 15%;
-}
+  width: 15%; }
 
-/* line 3, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_sizing.sass */
 .f-w-10 {
-  width: 10%;
-}
+  width: 10%; }
 
-/* line 3, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_sizing.sass */
 .f-w-5 {
-  width: 5%;
-}
+  width: 5%; }
 
-/* line 3, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_sizing.sass */
 .f-h-100 {
-  height: 100%;
-}
+  height: 100%; }
 
-/* line 3, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_sizing.sass */
 .f-h-95 {
-  height: 95%;
-}
+  height: 95%; }
 
-/* line 3, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_sizing.sass */
 .f-h-90 {
-  height: 90%;
-}
+  height: 90%; }
 
-/* line 3, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_sizing.sass */
 .f-h-85 {
-  height: 85%;
-}
+  height: 85%; }
 
-/* line 3, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_sizing.sass */
 .f-h-80 {
-  height: 80%;
-}
+  height: 80%; }
 
-/* line 3, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_sizing.sass */
 .f-h-75 {
-  height: 75%;
-}
+  height: 75%; }
 
-/* line 3, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_sizing.sass */
 .f-h-70 {
-  height: 70%;
-}
+  height: 70%; }
 
-/* line 3, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_sizing.sass */
 .f-h-65 {
-  height: 65%;
-}
+  height: 65%; }
 
-/* line 3, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_sizing.sass */
 .f-h-60 {
-  height: 60%;
-}
+  height: 60%; }
 
-/* line 3, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_sizing.sass */
 .f-h-55 {
-  height: 55%;
-}
+  height: 55%; }
 
-/* line 3, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_sizing.sass */
 .f-h-50 {
-  height: 50%;
-}
+  height: 50%; }
 
-/* line 3, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_sizing.sass */
 .f-h-45 {
-  height: 45%;
-}
+  height: 45%; }
 
-/* line 3, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_sizing.sass */
 .f-h-40 {
-  height: 40%;
-}
+  height: 40%; }
 
-/* line 3, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_sizing.sass */
 .f-h-35 {
-  height: 35%;
-}
+  height: 35%; }
 
-/* line 3, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_sizing.sass */
 .f-h-30 {
-  height: 30%;
-}
+  height: 30%; }
 
-/* line 3, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_sizing.sass */
 .f-h-25 {
-  height: 25%;
-}
+  height: 25%; }
 
-/* line 3, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_sizing.sass */
 .f-h-20 {
-  height: 20%;
-}
+  height: 20%; }
 
-/* line 3, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_sizing.sass */
 .f-h-15 {
-  height: 15%;
-}
+  height: 15%; }
 
-/* line 3, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_sizing.sass */
 .f-h-10 {
-  height: 10%;
-}
+  height: 10%; }
 
-/* line 3, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_sizing.sass */
 .f-h-5 {
-  height: 5%;
-}
+  height: 5%; }
 
-/* line 8, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_sizing.sass */
 .f-f-subtitle {
-  font-size: 0.75rem;
-}
+  font-size: 0.75rem; }
 
-/* line 8, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_sizing.sass */
 .f-f-normal {
-  font-size: 1rem;
-}
+  font-size: 1rem; }
 
-/* line 8, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_sizing.sass */
 .f-f-title {
-  font-size: 1.5rem;
-}
+  font-size: 1.5rem; }
 
-/* line 8, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_sizing.sass */
 .f-f-big {
-  font-size: 2rem;
-}
+  font-size: 2rem; }
 
-/* line 8, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_sizing.sass */
 .f-f-bigger {
-  font-size: 2.5rem;
-}
+  font-size: 2.5rem; }
 
-/* line 8, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_sizing.sass */
 .f-f-aub {
-  font-size: 3rem;
-}
+  font-size: 3rem; }
 
-/* line 8, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_sizing.sass */
 .f-f-aufb {
-  font-size: 3.5rem;
-}
+  font-size: 3.5rem; }
 
-/* line 8, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_sizing.sass */
 .f-f-aufb-mtfk {
-  font-size: 4rem;
-}
+  font-size: 4rem; }
 
-/* line 2, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-mx-0 {
-  margin: 0rem 0;
-}
+  margin: 0rem 0; }
 
-/* line 4, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-my-0 {
-  margin: 0 0rem;
-}
+  margin: 0 0rem; }
 
-/* line 6, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-px-0 {
-  padding: 0rem 0;
-}
+  padding: 0rem 0; }
 
-/* line 8, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-py-0 {
-  padding: 0 0rem;
-}
+  padding: 0 0rem; }
 
-/* line 2, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-mx-1 {
-  margin: 0.25rem 0;
-}
+  margin: 0.25rem 0; }
 
-/* line 4, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-my-1 {
-  margin: 0 0.25rem;
-}
+  margin: 0 0.25rem; }
 
-/* line 6, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-px-1 {
-  padding: 0.25rem 0;
-}
+  padding: 0.25rem 0; }
 
-/* line 8, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-py-1 {
-  padding: 0 0.25rem;
-}
+  padding: 0 0.25rem; }
 
-/* line 2, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-mx-2 {
-  margin: 0.5rem 0;
-}
+  margin: 0.5rem 0; }
 
-/* line 4, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-my-2 {
-  margin: 0 0.5rem;
-}
+  margin: 0 0.5rem; }
 
-/* line 6, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-px-2 {
-  padding: 0.5rem 0;
-}
+  padding: 0.5rem 0; }
 
-/* line 8, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-py-2 {
-  padding: 0 0.5rem;
-}
+  padding: 0 0.5rem; }
 
-/* line 2, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-mx-3 {
-  margin: 1rem 0;
-}
+  margin: 1rem 0; }
 
-/* line 4, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-my-3 {
-  margin: 0 1rem;
-}
+  margin: 0 1rem; }
 
-/* line 6, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-px-3 {
-  padding: 1rem 0;
-}
+  padding: 1rem 0; }
 
-/* line 8, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-py-3 {
-  padding: 0 1rem;
-}
+  padding: 0 1rem; }
 
-/* line 2, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-mx-4 {
-  margin: 1.5rem 0;
-}
+  margin: 1.5rem 0; }
 
-/* line 4, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-my-4 {
-  margin: 0 1.5rem;
-}
+  margin: 0 1.5rem; }
 
-/* line 6, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-px-4 {
-  padding: 1.5rem 0;
-}
+  padding: 1.5rem 0; }
 
-/* line 8, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-py-4 {
-  padding: 0 1.5rem;
-}
+  padding: 0 1.5rem; }
 
-/* line 2, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-mx-5 {
-  margin: 3rem 0;
-}
+  margin: 3rem 0; }
 
-/* line 4, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-my-5 {
-  margin: 0 3rem;
-}
+  margin: 0 3rem; }
 
-/* line 6, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-px-5 {
-  padding: 3rem 0;
-}
+  padding: 3rem 0; }
 
-/* line 8, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-py-5 {
-  padding: 0 3rem;
-}
+  padding: 0 3rem; }
 
-/* line 12, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-m-auto {
-  margin: auto;
-}
+  margin: auto; }
 
-/* line 15, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-m-0 {
-  margin: 0rem;
-}
+  margin: 0rem; }
 
-/* line 15, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-m-1 {
-  margin: 0.25rem;
-}
+  margin: 0.25rem; }
 
-/* line 15, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-m-2 {
-  margin: 0.5rem;
-}
+  margin: 0.5rem; }
 
-/* line 15, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-m-3 {
-  margin: 1rem;
-}
+  margin: 1rem; }
 
-/* line 15, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-m-4 {
-  margin: 1.5rem;
-}
+  margin: 1.5rem; }
 
-/* line 15, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-m-5 {
-  margin: 3rem;
-}
+  margin: 3rem; }
 
-/* line 12, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-ml-auto {
-  margin-left: auto;
-}
+  margin-left: auto; }
 
-/* line 15, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-ml-0 {
-  margin-left: 0rem;
-}
+  margin-left: 0rem; }
 
-/* line 15, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-ml-1 {
-  margin-left: 0.25rem;
-}
+  margin-left: 0.25rem; }
 
-/* line 15, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-ml-2 {
-  margin-left: 0.5rem;
-}
+  margin-left: 0.5rem; }
 
-/* line 15, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-ml-3 {
-  margin-left: 1rem;
-}
+  margin-left: 1rem; }
 
-/* line 15, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-ml-4 {
-  margin-left: 1.5rem;
-}
+  margin-left: 1.5rem; }
 
-/* line 15, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-ml-5 {
-  margin-left: 3rem;
-}
+  margin-left: 3rem; }
 
-/* line 12, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-mt-auto {
-  margin-top: auto;
-}
+  margin-top: auto; }
 
-/* line 15, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-mt-0 {
-  margin-top: 0rem;
-}
+  margin-top: 0rem; }
 
-/* line 15, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-mt-1 {
-  margin-top: 0.25rem;
-}
+  margin-top: 0.25rem; }
 
-/* line 15, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-mt-2 {
-  margin-top: 0.5rem;
-}
+  margin-top: 0.5rem; }
 
-/* line 15, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-mt-3 {
-  margin-top: 1rem;
-}
+  margin-top: 1rem; }
 
-/* line 15, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-mt-4 {
-  margin-top: 1.5rem;
-}
+  margin-top: 1.5rem; }
 
-/* line 15, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-mt-5 {
-  margin-top: 3rem;
-}
+  margin-top: 3rem; }
 
-/* line 12, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-mr-auto {
-  margin-right: auto;
-}
+  margin-right: auto; }
 
-/* line 15, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-mr-0 {
-  margin-right: 0rem;
-}
+  margin-right: 0rem; }
 
-/* line 15, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-mr-1 {
-  margin-right: 0.25rem;
-}
+  margin-right: 0.25rem; }
 
-/* line 15, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-mr-2 {
-  margin-right: 0.5rem;
-}
+  margin-right: 0.5rem; }
 
-/* line 15, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-mr-3 {
-  margin-right: 1rem;
-}
+  margin-right: 1rem; }
 
-/* line 15, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-mr-4 {
-  margin-right: 1.5rem;
-}
+  margin-right: 1.5rem; }
 
-/* line 15, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-mr-5 {
-  margin-right: 3rem;
-}
+  margin-right: 3rem; }
 
-/* line 12, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-mb-auto {
-  margin-bottom: auto;
-}
+  margin-bottom: auto; }
 
-/* line 15, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-mb-0 {
-  margin-bottom: 0rem;
-}
+  margin-bottom: 0rem; }
 
-/* line 15, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-mb-1 {
-  margin-bottom: 0.25rem;
-}
+  margin-bottom: 0.25rem; }
 
-/* line 15, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-mb-2 {
-  margin-bottom: 0.5rem;
-}
+  margin-bottom: 0.5rem; }
 
-/* line 15, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-mb-3 {
-  margin-bottom: 1rem;
-}
+  margin-bottom: 1rem; }
 
-/* line 15, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-mb-4 {
-  margin-bottom: 1.5rem;
-}
+  margin-bottom: 1.5rem; }
 
-/* line 15, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-mb-5 {
-  margin-bottom: 3rem;
-}
+  margin-bottom: 3rem; }
 
-/* line 20, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-p-auto {
-  padding: auto;
-}
+  padding: auto; }
 
-/* line 23, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-p-0 {
-  padding: 0rem;
-}
+  padding: 0rem; }
 
-/* line 23, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-p-1 {
-  padding: 0.25rem;
-}
+  padding: 0.25rem; }
 
-/* line 23, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-p-2 {
-  padding: 0.5rem;
-}
+  padding: 0.5rem; }
 
-/* line 23, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-p-3 {
-  padding: 1rem;
-}
+  padding: 1rem; }
 
-/* line 23, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-p-4 {
-  padding: 1.5rem;
-}
+  padding: 1.5rem; }
 
-/* line 23, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-p-5 {
-  padding: 3rem;
-}
+  padding: 3rem; }
 
-/* line 20, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-pl-auto {
-  padding-left: auto;
-}
+  padding-left: auto; }
 
-/* line 23, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-pl-0 {
-  padding-left: 0rem;
-}
+  padding-left: 0rem; }
 
-/* line 23, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-pl-1 {
-  padding-left: 0.25rem;
-}
+  padding-left: 0.25rem; }
 
-/* line 23, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-pl-2 {
-  padding-left: 0.5rem;
-}
+  padding-left: 0.5rem; }
 
-/* line 23, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-pl-3 {
-  padding-left: 1rem;
-}
+  padding-left: 1rem; }
 
-/* line 23, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-pl-4 {
-  padding-left: 1.5rem;
-}
+  padding-left: 1.5rem; }
 
-/* line 23, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-pl-5 {
-  padding-left: 3rem;
-}
+  padding-left: 3rem; }
 
-/* line 20, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-pt-auto {
-  padding-top: auto;
-}
+  padding-top: auto; }
 
-/* line 23, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-pt-0 {
-  padding-top: 0rem;
-}
+  padding-top: 0rem; }
 
-/* line 23, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-pt-1 {
-  padding-top: 0.25rem;
-}
+  padding-top: 0.25rem; }
 
-/* line 23, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-pt-2 {
-  padding-top: 0.5rem;
-}
+  padding-top: 0.5rem; }
 
-/* line 23, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-pt-3 {
-  padding-top: 1rem;
-}
+  padding-top: 1rem; }
 
-/* line 23, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-pt-4 {
-  padding-top: 1.5rem;
-}
+  padding-top: 1.5rem; }
 
-/* line 23, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-pt-5 {
-  padding-top: 3rem;
-}
+  padding-top: 3rem; }
 
-/* line 20, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-pr-auto {
-  padding-right: auto;
-}
+  padding-right: auto; }
 
-/* line 23, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-pr-0 {
-  padding-right: 0rem;
-}
+  padding-right: 0rem; }
 
-/* line 23, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-pr-1 {
-  padding-right: 0.25rem;
-}
+  padding-right: 0.25rem; }
 
-/* line 23, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-pr-2 {
-  padding-right: 0.5rem;
-}
+  padding-right: 0.5rem; }
 
-/* line 23, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-pr-3 {
-  padding-right: 1rem;
-}
+  padding-right: 1rem; }
 
-/* line 23, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-pr-4 {
-  padding-right: 1.5rem;
-}
+  padding-right: 1.5rem; }
 
-/* line 23, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-pr-5 {
-  padding-right: 3rem;
-}
+  padding-right: 3rem; }
 
-/* line 20, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-pb-auto {
-  margin-bottom: auto;
-}
+  margin-bottom: auto; }
 
-/* line 23, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-pb-0 {
-  margin-bottom: 0rem;
-}
+  margin-bottom: 0rem; }
 
-/* line 23, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-pb-1 {
-  margin-bottom: 0.25rem;
-}
+  margin-bottom: 0.25rem; }
 
-/* line 23, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-pb-2 {
-  margin-bottom: 0.5rem;
-}
+  margin-bottom: 0.5rem; }
 
-/* line 23, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-pb-3 {
-  margin-bottom: 1rem;
-}
+  margin-bottom: 1rem; }
 
-/* line 23, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-pb-4 {
-  margin-bottom: 1.5rem;
-}
+  margin-bottom: 1.5rem; }
 
-/* line 23, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_spacing.sass */
 .f-pb-5 {
-  margin-bottom: 3rem;
-}
+  margin-bottom: 3rem; }
 
-/* line 1, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_aligning.sass */
 .f-flex {
-  display: flex;
-}
+  display: flex; }
 
-/* line 4, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_aligning.sass */
 .f-row {
-  flex-direction: row;
-}
+  flex-direction: row; }
 
-/* line 7, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_aligning.sass */
 .f-row-r {
-  flex-direction: row-reverse;
-}
+  flex-direction: row-reverse; }
 
-/* line 10, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_aligning.sass */
 .f-col {
-  flex-direction: column;
-}
+  flex-direction: column; }
 
-/* line 13, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_aligning.sass */
 .f-col-r {
-  flex-direction: column-reverse;
-}
+  flex-direction: column-reverse; }
 
-/* line 16, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_aligning.sass */
 .f-warp {
-  flex-wrap: wrap;
-}
+  flex-wrap: wrap; }
 
-/* line 19, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_aligning.sass */
 .f-nowarp {
-  flex-wrap: nowrap;
-}
+  flex-wrap: nowrap; }
 
-/* line 22, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_aligning.sass */
 .f-warp-r {
-  flex-wrap: wrap-reverse;
-}
+  flex-wrap: wrap-reverse; }
 
-/* line 25, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_aligning.sass */
 .f-jc-start {
-  justify-content: flex-start;
-}
+  justify-content: flex-start; }
 
-/* line 28, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_aligning.sass */
 .f-jc-end {
-  justify-content: flex-end;
-}
+  justify-content: flex-end; }
 
-/* line 31, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_aligning.sass */
 .f-jc-center {
-  justify-content: center;
-}
+  justify-content: center; }
 
-/* line 34, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_aligning.sass */
 .f-jc-space-between {
-  justify-content: space-between;
-}
+  justify-content: space-between; }
 
-/* line 37, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_aligning.sass */
 .f-jc-space-around {
-  justify-content: space-around;
-}
+  justify-content: space-around; }
 
-/* line 40, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_aligning.sass */
 .f-jc-space-evenly {
-  justify-content: space-evenly;
-}
+  justify-content: space-evenly; }
 
-/* line 43, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_aligning.sass */
 .f-ai-start {
-  align-items: flex-start;
-}
+  align-items: flex-start; }
 
-/* line 46, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_aligning.sass */
 .f-ai-end {
-  align-items: flex-end;
-}
+  align-items: flex-end; }
 
-/* line 49, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_aligning.sass */
 .f-ai-center {
-  align-items: center;
-}
+  align-items: center; }
 
-/* line 52, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_aligning.sass */
 .f-ai-stretch {
-  align-items: stretch;
-}
+  align-items: stretch; }
 
-/* line 55, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_aligning.sass */
 .f-ai-baseline {
-  align-items: baseline;
-}
+  align-items: baseline; }
 
-/* line 58, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_aligning.sass */
 .f-ac-start {
-  align-content: flex-start;
-}
+  align-content: flex-start; }
 
-/* line 61, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_aligning.sass */
 .f-ac-end {
-  align-content: flex-end;
-}
+  align-content: flex-end; }
 
-/* line 64, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_aligning.sass */
 .f-ac-center {
-  align-content: center;
-}
+  align-content: center; }
 
-/* line 67, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_aligning.sass */
 .f-ac-space-between {
-  align-content: space-between;
-}
+  align-content: space-between; }
 
-/* line 70, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_aligning.sass */
 .f-ac-space-around {
-  align-content: space-around;
-}
+  align-content: space-around; }
 
-/* line 73, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_aligning.sass */
 .f-grow-1 {
-  flex-grow: 1;
-}
+  flex-grow: 1; }
 
-/* line 76, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_aligning.sass */
 .f-grow-2 {
-  flex-grow: 2;
-}
+  flex-grow: 2; }
 
-/* line 79, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_aligning.sass */
 .f-grow-3 {
-  flex-grow: 3;
-}
+  flex-grow: 3; }
 
-/* line 82, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_aligning.sass */
 .f-grow-4 {
-  flex-grow: 4;
-}
+  flex-grow: 4; }
 
-/* line 85, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_aligning.sass */
 .f-grow-5 {
-  flex-grow: 5;
-}
+  flex-grow: 5; }
 
-/* line 88, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_aligning.sass */
 .f-shrink-1 {
-  flex-shrink: 1;
-}
+  flex-shrink: 1; }
 
-/* line 91, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_aligning.sass */
 .f-shrink-2 {
-  flex-shrink: 2;
-}
+  flex-shrink: 2; }
 
-/* line 94, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_aligning.sass */
 .f-shrink-3 {
-  flex-shrink: 3;
-}
+  flex-shrink: 3; }
 
-/* line 97, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_aligning.sass */
 .f-shrink-4 {
-  flex-shrink: 4;
-}
+  flex-shrink: 4; }
 
-/* line 100, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_aligning.sass */
 .f-shrink-5 {
-  flex-shrink: 5;
-}
+  flex-shrink: 5; }
 
-/* line 5, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_borders.sass */
 .f-brdr-1 {
-  border-width: 0.05rem;
-}
+  border-width: 0.05rem; }
 
-/* line 5, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_borders.sass */
 .f-brdr-2 {
-  border-width: 0.15rem;
-}
+  border-width: 0.15rem; }
 
-/* line 5, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_borders.sass */
 .f-brdr-3 {
-  border-width: 0.2rem;
-}
+  border-width: 0.2rem; }
 
-/* line 5, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_borders.sass */
 .f-brdr-4 {
-  border-width: 0.3rem;
-}
+  border-width: 0.3rem; }
 
-/* line 5, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_borders.sass */
 .f-brdr-5 {
-  border-width: 0.4rem;
-}
+  border-width: 0.4rem; }
 
-/* line 9, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_borders.sass */
 .f-brdr-solid {
-  border-style: solid;
-}
+  border-style: solid; }
 
-/* line 9, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_borders.sass */
 .f-brdr-dotted {
-  border-style: dotted;
-}
+  border-style: dotted; }
 
-/* line 9, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_borders.sass */
 .f-brdr-dashed {
-  border-style: dashed;
-}
+  border-style: dashed; }
 
-/* line 9, ../../Users/vai_s/Documents/fulano-mods/f-mods/sass/_borders.sass */
 .f-brdr-double {
-  border-style: double;
-}
+  border-style: double; }
 
 /*# sourceMappingURL=styles.css.map */
